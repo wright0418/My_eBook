@@ -16,7 +16,7 @@
 
 ### 🏗️ 基礎篇
 
-#### [第1課：Git 基礎概念](docs/lessons/01-git-basics.md)
+#### [第1課：Git 基礎概念](lessons/01-git-basics.md)
 - Git 是什麼？為什麼需要版本控制？
 - Repository、Working Directory、Staging Area 概念
 - 用圖書館比喻理解 Git 的工作原理
@@ -25,7 +25,7 @@
 **學習時間：** 30分鐘  
 **難度：** ⭐
 
-#### [第2課：基本指令操作](docs/lessons/02-basic-commands.md)
+#### [第2課：基本指令操作](lessons/02-basic-commands.md)
 - `git init` - 初始化倉庫
 - `git add` - 暫存變更
 - `git commit` - 提交變更
@@ -38,7 +38,7 @@
 
 ### 🌿 中級篇
 
-#### [第3課：分支操作](docs/lessons/03-branch-operations.md)
+#### [第3課：分支操作](lessons/03-branch-operations.md)
 - Branch 概念：平行世界的圖書館管理
 - 建立、切換、合併分支
 - Fast-forward vs 三方合併
@@ -48,7 +48,7 @@
 **學習時間：** 60分鐘  
 **難度：** ⭐⭐⭐
 
-#### [第4課：遠端倉庫協作](docs/lessons/04-remote-collaboration.md)
+#### [第4課：遠端倉庫協作](lessons/04-remote-collaboration.md)
 - GitHub 入門和基本設置
 - `git clone`, `git push`, `git pull` 操作
 - 本地與遠端分支的關係
@@ -60,7 +60,7 @@
 
 ### 🚀 進階篇
 
-#### [第5課：進階操作與問題解決](docs/lessons/05-advanced-operations.md)
+#### [第5課：進階操作與問題解決](lessons/05-advanced-operations.md)
 - 合併衝突的處理
 - Interactive Rebase 重整歷史
 - Reset vs Revert 的使用時機
@@ -113,25 +113,6 @@ git config --global core.editor "code --wait"
 
 # 檢查設定
 git config --list
-```
-
-## 📁 專案結構
-
-```
-Try_Git/
-├── .github/
-│   └── copilot-instructions.md    # AI 協作指南
-├── docs/
-│   └── lessons/                   # 課程內容
-│       ├── 01-git-basics.md
-│       ├── 02-basic-commands.md
-│       ├── 03-branch-operations.md
-│       ├── 04-remote-collaboration.md
-│       └── 05-advanced-operations.md
-├── exercises/                     # 練習檔案
-│   └── (你的練習會放在這裡)
-├── .gitignore                    # Git 忽略檔案
-└── README.md                     # 本檔案
 ```
 
 ## 🏋️‍♀️ 實作練習
