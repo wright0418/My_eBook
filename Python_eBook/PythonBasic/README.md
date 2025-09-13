@@ -4,10 +4,39 @@
 這是一個以角色扮演遊戲(RPG)為主題的 Python 教學專案。透過建立遊戲系統的過程，逐步學習 Python 的基礎概念和程式設計技巧。
 
 ## 教學特色
-- 以遊戲開發為學習主題
-- 循序漸進的概念引導
-- 豐富的實作練習
-- 完整的專案範例
+
+# PythonBasic 專案式學習說明
+
+## 學習目標
+- 以 RPG 專案為主軸，循序漸進學習 Python 基礎語法、物件導向、模組化設計。
+- 每章節搭配範例程式與練習題，強化實作能力。
+
+## 結構說明
+- `Lession/`：章節理論與說明，皆以 Markdown 編寫。
+	- 00-preface.md：前言與學習地圖
+	- 01-basic-io.md ~ 10-random.md：基礎語法、資料結構、例外處理、隨機模組等
+- `example/`：各章節對應範例程式與練習題
+	- chX.py：章節範例程式
+	- chX_practice.py：章節練習題
+	- RPG 專案模組：
+		- game_character.py / game_character_system.py：角色系統
+		- game_combat.py / game_combat_system.py：戰鬥系統
+		- game_items.py / game_item_system.py：物品系統
+		- game_record_system.py：紀錄系統
+		- map_example.py：地圖範例
+
+## 特色與建議
+- 章節內容理論與實作分離，便於逐步學習與測試。
+- RPG 專案模組化設計，鼓勵跨檔案互動與系統整合。
+- 範例程式皆具備註解，適合初學者閱讀。
+- 建議依章節順序學習，並嘗試修改範例程式以加深理解。
+
+## 參考
+- 主倉庫 `README.md`：總覽與主題索引
+- RPG 專案核心檔案：`game_character.py`、`game_combat.py`、`game_items.py`、`game_character_system.py` 等
+
+---
+如有疑問或建議，歡迎於 Issues 討論。
 
 ## 學習架構
 每個章節都包含：
