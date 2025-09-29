@@ -5,3 +5,6 @@
 - [Git 學習中心](./Git_eBook/README.md)
 - [Python 學習中心](./Python_eBook/README.md)
 - [高效的會議](./通識/高效會議管理/README.md)
+ - [Git 學習中心](./docs/git/Git_eBook/README.md)
+ - [Python 學習中心](./docs/python/Python_eBook/README.md)
+ - [高效的會議](./docs/general/高效會議管理/README.md)

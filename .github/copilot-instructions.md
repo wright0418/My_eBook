@@ -2,8 +2,8 @@
 
 ## 專案架構總覽
 - 本倉庫為個人學習電子書，分為多主題資料夾：
-  - `Git_eBook/`：Git 學習中心，包含基礎、進階、協作等課程，所有章節在 `lessons/` 目錄下以 Markdown 編寫。
-  - `Python_Book/`：Python 學習中心，分為 `PythonBasic/`（RPG 專案式教學，章節與範例程式分離）與 `Python_進階/`（進階語法與裝飾器範例）。
+  - `Git_eBook/`：Git 學習中心（現位於 `docs/git/Git_eBook/`），包含基礎、進階、協作等課程，所有章節在 `lessons/` 目錄下以 Markdown 編寫。
+  - `Python_Book/`：Python 學習中心（現位於 `docs/python/Python_eBook/`），分為 `PythonBasic/`（RPG 專案式教學，章節與範例程式分離）與 `Python_進階/`（進階語法與裝飾器範例）。
 - 每個主題資料夾均有獨立 `README.md`，說明學習目標、章節結構與特色。
 
 ## 關鍵開發模式與慣例
@@ -31,7 +31,7 @@
 
 ## 參考檔案
 - 主倉庫 `README.md`：總覽與主題索引
-- `Git_eBook/README.md`、`Python_Book/README.md`、`Python_Book/PythonBasic/README.md`：各主題教學說明
+- `docs/git/Git_eBook/README.md`、`docs/python/Python_eBook/README.md`、`docs/python/Python_eBook/PythonBasic/README.md`：各主題教學說明
 - RPG 專案核心檔案：`game_character.py`、`game_combat.py`、`game_items.py`、`game_character_system.py` 等
 
 ---
