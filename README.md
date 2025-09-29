@@ -2,6 +2,6 @@
 這是個人學習筆記的電子書，內容包含程式設計、軟體開發、資料科學等相關主題。希望能夠透過這本電子書，分享我的學習經驗與知識，並幫助更多人了解這些領域。
 歡迎大家一起來學習、交流，共同進步！
 ## 目錄
-- [Git 學習中心](./Git_eBook/README.md)
-- [Python 學習中心](./Python_eBook/README.md)
-- [高效的會議](./通識/高效會議管理/README.md)
+ - [Git 學習中心](./docs/git/Git_eBook/README.md)
+ - [Python 學習中心](./docs/python/Python_eBook/README.md)
+ - [高效的會議](./docs/general/高效會議管理/README.md)
