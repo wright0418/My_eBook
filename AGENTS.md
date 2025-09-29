@@ -1,22 +1,19 @@
 # Project overview
-這個我個人學習與編撰教學的課程內容專案，會有各種不同的主題，像是程式語言、工具、框架、平台、服務、系統、概念、理論、技術等，並且會持續更新與擴充。
+This repository is a personal learning eBook that contains course-style content across multiple topics, including programming languages, tools, frameworks, platforms, systems, and concepts. The content is continuously updated and expanded.
 
-# 分類
--  通識
--  Git
--  Python eBook
-   - pytest
-   - Python 基礎
-    - RPG 專案式教學
-  - uv package
-  - Python 進階
-- AI Tools
-  - GitHub Copilot
-  - GitHub spec-kit
-  - bMod Methods
-  
-# 規則
--  每個主題會有獨立的資料夾，裡面會有對應的章節內容。
--  章節內容會以 Markdown (`.md`) 格式撰寫，
--  章節內容會包含理論、說明、範例程式碼、練習題、挑戰題等。
--  
+## Organization (recommended)
+- docs/general/           # 通識 (e.g., 高效會議管理)
+- docs/git/               # Git learning center (was `Git_eBook`)
+- docs/python/            # Python materials (was `Python_eBook`)
+  - docs/python/basic/    # Python 基礎 (PythonBasic examples and lessons)
+  - docs/python/advanced/ # Python 進階
+  - docs/python/pytest/   # pytest course
+  - docs/python/uv_package/ # uv package course
+- docs/ai-tools/          # AI tools and Copilot materials (was `GithubCopilot_eBook`)
+
+## Guidelines
+- Each topic should live in its own folder under `docs/`.
+- Content pages should be written in Markdown (`.md`).
+- Each chapter should include theory, examples, exercises, and challenges.
+
+If you prefer the old layout, the previous locations are preserved in the `reorg/docs-structure` branch.
